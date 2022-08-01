@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/azizillo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="conteiner">
+			<div class="header__inner">
+				<div class="user">
+					<div class="user__avatar">
+						<img src="image/ull.jpg" alt="">
+					</div>
+					<div class="user__cont">
+						<div class="user__name">Djalalov Azizillo</div>
+						<div class="user__prof">WEB-Designer</div>	
+					</div>
+				</div>
+
+				<nav class="nav" id="nav">
+					<a class="navigat__link" href="#" data-scroll="#work">work</a>
+					<a class="navigat__link" href="#" data-scroll="#about">about me</a>
+					<a class="navigat__link" href="#" data-scroll="#blog">blog</a>
+					<a class="navigat__link" href="#" data-scroll="#contact">contact</a>
+					<a class="navigat__link navigat__link--btn" href="#" data-model="#model_hire_me">hire me</a>
+				</nav>
+				<button class="burger" type="button" id="navToggle">
+                	<img class="burger__icon" src="image/menu-svgrepo-com.svg" alt="">
+           		</button>
+			</div> <!--header__inner -->
+		</div>	<!--conteiner -->	
+	</header>
+
+
+	<section class="intro">
+		<div class="conteiner">
+			<div class="intro_inner">
+
+				<div class="intro_content">
+					<div class="intro_name">
+						<h2 class="hello">Hello i'm</h2>
+						<h1 class="name">Djalalov Azizillo</h1>
+						<h3 class="prof">WEB-Designer</h3>
+					</div>
+					<div class="social">
+						<div class="social_link" href="#">
+							<img src="image/twitter.svg">
+						</div>
+						<div class="social_link" href="#">
+							<img src="image/instagram.svg">
+						</div>
+						<div class="social_link" href="#">
+							<img src="image/facebook.svg">
+						</div>
+						<div class="social_link" href="#">
+							<img src="image/in.svg">
+						</div>
+						<div class="social_link" href="#">
+							<img src="image/dribbble.svg">
+						</div>
+						<div class="social_link" href="#">
+							<img src="image/behance.svg">
+						</div>
+					</div>
+
+					<button href="#" class="button_prof" data-model="#model_hire_me">hire me</button>
+					<button href="#" class="button_prof" data-model="#model_resume">see my resume</button>
+				</div>
+
+				<img class="intro_photo" src="image/photo.png" alt="">
+			</div>  <!--intro_inner -->
+		</div>  <!--conteiner -->		
+	</section>
+
+	<section class="work" id="work">
+		<div class="conteiner">
+			<div class="work_btn">
+				<a href="#" data-filter="all">All</a>
+				<a href="#" data-filter="App">App</a>
+				<a href="#" data-filter="Website">Websites</a>
+				<a href="#" data-filter="Interaction">Interaction</a>
+			</div>
+			<div class="portfolio" id="portfolio">
+				<div class="port_del" data-cat="App" data-model="#model_project_1">
+					<a href="#">
+					<div class="port_inner">
+						<img class="port_img" src="https://via.placeholder.com/370x300" alt="">
+						<div class="port_cont">
+							<div class="port_cat">category: app</div>
+							<div class="port_title">
+								Project Title 
+								<time class="port_data" datetime="2022-11-22 19:00">2022</time>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+
+				<div class="port_del" data-cat="Website" data-model="#model_project_2">
+				<a href="#"><div class="port_inner">
+						<img class="port_img" src="https://via.placeholder.com/370x300" alt="">
+					<div class="port_cont">
+						<div class="port_cat">category: website</div>
+						<div class="port_title">
+								Project Title 
+							<time class="port_data" datetime="2022-11-22 19:00">2022</time>
+						</div>
+					</div>
+				</div></a>
+				</div>
+
+				<div class="port_del" data-cat="Interaction">
+				<a href="#"><div class="port_inner">
+						<img class="port_img" src="https://via.placeholder.com/370x300" alt="">
+					<div class="port_cont">
+						<div class="port_cat">category: Interaction</div>
+						<div class="port_title">
+								Project Title
+							<time class="port_data" datetime="2022-11-22 19:00">2022</time>
+						</div>
+					</div>
+				</div></a>
+				</div>
+
+				<div class="port_del" data-cat="Interaction">
+				<a href="#"><div class="port_inner">
+						<img class="port_img" src="https://via.placeholder.com/370x300" alt="">
+					<div class="port_cont">
+						<div class="port_cat">category: Interaction</div>
+						<div class="port_title">
+								Project Title
+							<time class="port_data" datetime="2022-11-22 19:00">2022</time>
+						</div>
+					</div>
+				</div></a>
+				</div>
+
+				<div class="port_del" data-cat="Website">
+				<a href="#"><div class="port_inner">
+						<img class="port_img" src="https://via.placeholder.com/370x300" alt="">
+					<div class="port_cont">
+						<div class="port_cat">category: website</div>
+						<div class="port_title">
+								Project Title
+							<time class="port_data" datetime="2022-11-22 19:00">2022</time>
+						</div>
+					</div>
+				</div></a>
+				</div>
+
+				<div class="port_del" data-cat="App">
+				<a href="#"><div class="port_inner">
+						<img class="port_img" src="https://via.placeholder.com/370x300" alt="">
+					<div class="port_cont">
+						<div class="port_cat">category: app</div>
+						<div class="port_title">
+								Project Title
+							<time class="port_data" datetime="2022-11-22 19:00">2022</time>
+						</div>
+					</div>
+				</div></a>
+				</div>
+			</div> <!--portfolio -->
+			<div class="work_end">
+				<button href="#" class="button_prof">load more work</button>
+			</div>
+		</div><!--conteiner -->
+	</section>
+
+	<section class="about_me" id="about">
+		<div class="conteiner">
+
+			<div class="about">
+				<div class="about_img">
+					<img class="img" src="image/designer_photo.svg" alt="">
+				</div>
+
+				<div class="about_inner">
+					<div class="about_text">
+						<h2>about me</h2>
+						<h1>who am i</h1>
+						<p>The old posters and signs in the traditional Montserrat neighborhood of Buenos Aires inspired Julieta Ulanovsky to design this typeface and rescue the beauty of urban typography that emerged in the first half of the twentieth century. As urban development changes that place, it will never return to its original form and loses forever the designs that are so special and unique. The letters that inspired this project have work, dedication, care, color, contrast, light and life, day and night! These are the types that make the city look so beautiful. The Montserrat Project began with the idea to rescue what is in Montserrat and set it free under a libre license, the SIL Open Font License.A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a pass from the grander poets. It always does one good.</p>
+					</div>
+					<button href="#" class="button_prof button_prof--btn" data-model="#model_hire_me">hire me</button>
+					<button href="#" class="button_prof" data-model="#model_resume">see my resume</button>
+				</div>
+			</div> <!--ABOUT-->
+		</div> <!--conteiner-->
+	</section>
+
+
+	<section class="testional">
+		<div class="conteiner">
+
+			<div class="test_inner">
+				<div class="test_text">
+					<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ipsam architecto, corrupti quos quis, debitis ullam explicabo eaque dignissimos possimus, placeat obcaecati! Corrupti, magnam laboriosam id dignissimos aut esse. Sed, nemo!</p>
+					<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ipsam architecto, corrupti quos quis, debitis ullam explicabo eaque dignissimos possimus, placeat obcaecati! Corrupti, magnam laboriosam id dignissimos aut esse. Sed, nemo!</p>
+				</div>
+				<div class="test_autor">
+					<img class="test_photo" src="https://via.placeholder.com/103/333" alt="">
+					<div class="test_name">Mark H. Broks</div>
+					<div class="test_company">Megacom</div>
+					<div class="test_rating">
+						<img src="image/star-svgrepo-com.svg" width="13px" height="13px" alt="">
+						<img src="image/star-svgrepo-com.svg" width="13px" height="13px" alt="">
+						<img src="image/star-svgrepo-com.svg" width="13px" height="13px" alt="">
+						<img src="image/star-svgrepo-com.svg" width="13px" height="13px" alt="">
+						<img src="image/star-half-solid-svgrepo-com.svg" width="13px" height="13px" alt="">
+					</div>
+				</div>
+			</div>   <!--test_inner-->
+		</div>   <!--conteiner-->
+	</section>
+
+
+	<section class="blog" id="blog">
+		<div class="conteiner">
+
+			<div class="blog_inner">
+				<h1>READ ME</h1>
+				<h2>Sometimes i write something smart</h2>
+
+				<div class="blog_work">
+					<div class="blog_item">
+						<div class="blog_image">
+							<a href="#">
+								<img class="blog_img" src="https://via.placeholder.com/370x257" alt="">
+							</a>
+							<div class="blog_data">
+								<time class="blog_day">10</time>june
+							</div>
+						</div>
+						<div class="blog_text">
+							<h3>ten the best app in 2021</h3>
+							<h4>category</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sit quo, tempore provident ad voluptate reiciendis earum nemo, placeat officia quod dolor obcaecati</p>
+						</div>
+						<button href="#" class="button_prof button_prof--read">read more</button>
+					</div>
+
+					<div class="blog_item">
+						<div class="blog_image">
+							<a href="#">
+								<img class="blog_img" src="https://via.placeholder.com/370x257" alt="">
+							</a>
+							<div class="blog_data">
+								<time class="blog_day">15</time>june
+							</div>
+						</div>
+						<div class="blog_text">
+							<h3>website inspiration</h3>
+							<h4>category</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sit quo, tempore provident ad voluptate reiciendis earum nemo, placeat officia quod dolor obcaecati</p>
+						</div>
+						<button href="#" class="button_prof button_prof--read">read more</button>
+					</div>
+					<div class="blog_item">
+						<div class="blog_image">
+							<a href="#">
+								<img class="blog_img" src="https://via.placeholder.com/370x257" alt="">
+							</a>
+							<div class="blog_data">
+								<time class="blog_day">20</time>june
+							</div>
+						</div>
+						<div class="blog_text">
+							<h3>changes in social media</h3>
+							<h4>category</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sit quo, tempore provident ad voluptate reiciendis earum nemo, placeat officia quod dolor obcaecati</p>
+						</div>
+						<button href="#" class="button_prof button_prof--read">read more</button>
+					</div>
+					<a href="#" class="blog_a">See more posts</a>
+				</div><!--BLog_work-->
+			</div><!--Blog_inner-->
+		</div><!--conteiner-->
+	</section>
+
+	
+	<footer class="footer" id="contact">
+		<div class="conteiner">
+			<div class="fotr_inner">
+				<div class="fotr_text">
+					<div class="fotr_info">© 2022 UI43 - Free Templates</div>
+					<div class="fotr_social">
+						<a href="#" target="_blank_">
+							<img src="image/footer/behance-svgrepo-com.svg" width="22px">
+						</a>
+						<a href="#" target="_blank_">
+							<img src="image/footer/dribbble-svgrepo-com.svg" width="18px">
+						</a>
+						<a href="#" target="_blank_">
+							<img src="image/footer/XMLID_801_.svg" width="18px">
+						</a>
+						<a href="#" target="_blank_">
+							<img src="image/footer/XMLID_834_.svg" width="18px" height="18px">
+						</a>
+						<a href="#" target="_blank_">
+							<img src="image/footer/instagram-svgrepo-com.svg" width="18px">
+						</a>
+						<a href="#" target="_blank_">
+							<img src="image/footer/XMLID_826_.svg" width="20px">
+						</a>
+					</div>
+				</div>
+				<nav class="fotr_menu">
+					<a class="fotr_navigat__link" href="#" data-scroll="#work">Work</a>
+					<a class="fotr_navigat__link" href="#" data-scroll="#about">About me</a>
+					<a class="fotr_navigat__link" href="#" data-scroll="#blog">Blog</a>
+					<a class="fotr_navigat__link" href="#" data-scroll="#contact">Contact</a>
+					<a class="fotr_navigat__link fotr_navigat__link--btn" href="#" data-model="#model_hire_me">Hire me</a>
+				</nav>
+			</div><!--Fotr_inner-->
+		</div><!--conteiner-->		
+	</footer> 
+
+
+	<div class="model" id="model_project_1">
+		<div class="model_dial model_dial--four">
+
+			<button class="model_close" type="button" data-close>
+				<img src="image/footer/close-svgrepo-com.svg" alt="close" >
+			</button>
+
+			<div class="model_work">
+				<div class="model_image">
+					<div data-slider="slick">
+                    	<div>
+                        	<img class="modal-work__photo" src="https://via.placeholder.com/790x780" alt="">
+                    	</div>
+                    	<div>
+                       		<img class="modal-work__photo" src="https://via.placeholder.com/790x780/333" alt="">
+                    	</div>
+					</div>
+				</div>
+				<div class="model_content">
+					<div class="model_text">
+						<h2>Project title 1</h2>
+						<div class="model_data">category  │  2022</div>
+						<div class="model_client">
+							Client:
+							<div class="model_agnt">Creative Agency</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eveniet nesciunt libero quo quod perspiciatis consectetur eum veritatis quam explicabo animi, ex maxime, placeat enim voluptatem et incidunt. Officia, fugit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ex velit eos fugiat vel esse iure, est veritatis voluptas, voluptate maiores excepturi odio, ab perferendis? Omnis optio dicta tempore dolorem.velit eos fugiat vel esse iure, est veritatis voluptas, voluptate maiores excepturi odio, ab perferendis? Omnis optio dicta tempore dolorem.velit eos fugiat vel esse iure, est veritatis voluptas, voluptate maiores excepturi odio, ab perferendis?</p>
+					</div>
+
+					<div class="model_footer">
+						<button class="model_btn slickPrev" type="button">
+						 <img src="image/footer/back-svgrepo-com.svg" height="15px">previous
+						</button>
+						<button class="model_btn slickNext" type="button">
+							next <img src="image/footer/next-svgrepo-com.svg" height="15px">
+						</button>
+					</div>
+				</div>
+			</div><!--model_work -->
+		</div><!--model_dial -->
+	</div><!--model -->
+
+
+	<div class="model" id="model_project_2">
+		<div class="model_dial model_dial--four">
+
+			<button class="model_close" type="button" data-close>
+				<img src="image/footer/close-svgrepo-com.svg" alt="close" >
+			</button>
+
+			<div class="model_work">
+				<div class="model_image">
+					<div data-slider="slick">
+                    	<div>
+                        	<img class="modal-work__photo" src="https://via.placeholder.com/790x780" alt="">
+                    	</div>
+                    	<div>
+                       		<img class="modal-work__photo" src="https://via.placeholder.com/790x780/333" alt="">
+                    	</div>
+					</div>
+				</div>
+				<div class="model_content">
+					<div class="model_text">
+						<h2>Project title 2</h2>
+						<div class="model_data">category  │  2022</div>
+						<div class="model_client">
+							Client:
+							<div class="model_agnt">Creative Agency</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eveniet nesciunt libero quo quod perspiciatis consectetur eum veritatis quam explicabo animi, ex maxime, placeat enim voluptatem et incidunt. Officia, fugit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ex velit eos fugiat vel esse iure, est veritatis voluptas, voluptate maiores excepturi odio, ab perferendis? Omnis optio dicta tempore dolorem.velit eos fugiat vel esse iure, est veritatis voluptas, voluptate maiores excepturi odio, ab perferendis? Omnis optio dicta tempore dolorem.velit eos fugiat vel esse iure, est veritatis voluptas, voluptate maiores excepturi odio, ab perferendis?</p>
+					</div>
+
+					<div class="model_footer">
+						<button class="model_btn slickPrev" type="button">
+						 <img src="image/footer/back-svgrepo-com.svg" height="15px">previous
+						</button>
+						<button class="model_btn slickNext" type="button">
+							next <img src="image/footer/next-svgrepo-com.svg" height="15px">
+						</button>
+					</div>
+				</div>
+			</div><!--model_work -->
+		</div><!--model_dial -->
+	</div><!--model <--></-->
+
+	<div class="model" id="model_resume">
+		<div class="model_dial model_dial--tm">
+			<button class="model_close" type="button"><img src="image/footer/close-svgrepo-com.svg" alt="close" data-close></button>
+			<div class="model_cont">
+				<div class="mdl_title text_centr">
+					<h1 class="mdl_h">Resume</h1>			
+				</div>
+				<div class="text_centr">
+					<a href="#" class="button_prof button_prof--thin">dowland pdf</a>
+					<a href="#" class="button_prof button_prof--thin">print</a>
+				</div>
+				<div class="timline"> 
+					<div class="timl_col timl_col--left">
+						<h2 class="timeline_title">experience</h2>					
+						<div class="timl_data">2021-2022</div>
+						<div class="timl_name">Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<div class="timl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus.</div>
+						<div class="timl_data">2021-2022</div>
+						<div class="timl_name">Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<div class="timl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus.</div>
+						<div class="timl_data">2021-2022</div>
+						<div class="timl_name">Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<div class="timl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus.</div>
+						<div class="timl_data">2021-2022</div>
+						<div class="timl_name">Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<div class="timl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper. Pellentesque cursus lectus a pulvinar dapibus.</div>
+					</div>
+					<div class="timl_col timl_col--right">
+						<h2 class="timeline_title">education</h2> 
+						<div class="timl_data">2021-2022</div>
+						<div class="timl_name">Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<div class="timl_data" style="padding-top: 32px">2021-2022</div>
+						<div class="timl_name">Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<h3 class="timeline_title">skills</h3>
+						<div class="progress_bar">
+							<div class="progress_bar_bar">
+								<div class="progress_bar_left">
+									<div class="progress_bar_title">WEB-Design</div>
+								</div>
+								<div class="progress_bar_right">
+									<div class="progress_bar_item">
+										<div class="progress_bar_prog" style="width: 80%;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="progress_bar_bar">
+								<div class="progress_bar_left">
+									<div class="progress_bar_title">Ilustrator</div>
+								</div>
+								<div class="progress_bar_right">
+									<div class="progress_bar_item">
+										<div class="progress_bar_prog" style="width: 60%;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="progress_bar_bar">
+								<div class="progress_bar_left">
+									<div class="progress_bar_title">Photoshop</div>
+								</div>
+								<div class="progress_bar_right">
+									<div class="progress_bar_item">
+										<div class="progress_bar_prog" style="width: 70%;"></div>
+									</div>
+								</div>
+							</div>
+							<div class="progress_bar_bar">
+								<div class="progress_bar_left">
+									<div class="progress_bar_title">Sketch</div>
+								</div>
+								<div class="progress_bar_right">
+									<div class="progress_bar_item">
+										<div class="progress_bar_prog" style="width: 40%;"></div>
+									</div>
+								</div>
+							</div>
+						</div><!--progress_bar -->
+						<h3 class="timeline_title" style="padding-bottom: 0;">awards</h3>
+						<div class="timl_name"><div class="timl_data timl_data--two">2021-2022</div>Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<div class="timl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper.</div>
+						<div class="timl_name"> <div class="timl_data timl_data--two">2021-2022</div>Freelancer</div>
+						<div class="timl_cont">Art director</div>
+						<div class="timl_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis felis non tempor ullamcorper.</div>
+					</div><!--timl_col--right -->
+				</div><!--timeline -->
+
+				<div class="text_centr">
+					<a href="#" class="button_prof button_prof--btn">hire me</a>
+				</div>
+			</div><!--model_cont -->
+		</div><!--model_dial -->
+	</div><!--model -->
+
+	<div class="model" id="model_hire_me">
+		<div class="model_dial model_dial--sm">
+			<button class="model_close" type="button"><img src="image/footer/close-svgrepo-com.svg" alt="close" data-close></button>
+			<div class="contact">
+				<div class="contact_left">
+					<div class="mdl_title mb-o">
+						LET'S TALK!			
+					</div>
+					<div class="model_data--two">CALL ME OR SEND ME A REQUEST</div>
+					<a href="#"><ul class="contact_info">
+						<li class="contact_info-item">
+							<img src="image/footer/phone-alt-svgrepo-com.svg" alt="">
+							+996 (700) 08-01-03
+						</li>
+						<li class="contact_info-item">
+							<img src="image/footer/mail-svgrepo-com.svg" alt="">
+							djazizillo15@gmail.com
+						</li>
+					</ul></a>
+					<form class="form" action="/" method="post">
+						<div class="form_grop">
+							<label class="label" for="input-email">Adress e-mail</label>
+							<input class="input" type="text" name="input-email" id="input-email" placeholder="Adress e-mail">
+						</div>
+						<div class="form_grop">
+							<label class="label"  for="input-text">Reguest</label>
+							<textarea class="textarea" name="input-text" id="input-text"
+							placeholder="Type your request..."></textarea>
+						</div>
+						<div class="text_right">
+							<a href="#" class="button_prof button_prof--btn">send</a>
+						</div>
+					</form>
+				</div>
+			</div><!--contact-->
+		</div><!--model_dial -->
+	</div><!--model -->
+	<script type="text/javascript" src="js/azizillo.js"></script>
+	<script src="js/slick.min.js"></script>
+
+
+</body>
+</html>
